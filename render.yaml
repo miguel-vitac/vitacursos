@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: vitacursos
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MP_ACCESS_TOKEN
+        sync: false
+      - key: MP_WEBHOOK_SECRET
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: DOWNLOAD_SECRET
+        sync: false
+      - key: NODE_VERSION
+        value: 20

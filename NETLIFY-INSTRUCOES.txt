@@ -1,0 +1,6 @@
+NETLIFY
+
+Para publicar: envie ESTA PASTA (ou o conteúdo dela) para o Netlify. O index.html está na raiz.
+Se usar Drag and Drop, compacte o CONTEUDO desta pasta ou envie a pasta descompactada conforme a interface do Netlify.
+
+O backend Mercado Pago (server.js) não roda como site estático no Drag and Drop; para pagamento real, o backend precisa ser hospedado em servidor/serviço Node separado ou convertido para Netlify Functions.
